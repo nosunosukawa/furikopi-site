@@ -3,44 +3,149 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>フリコピ - ダンス練習のスロー再生＆反転ミラー | サポート</title>
-<meta name="description" content="フリコピは、YouTubeのダンス動画を鏡うつし（左右反転）でスロー再生し、覚えたい区間だけくり返せるiOSアプリです。">
+<title>フリコピ - ダンス練習のスロー再生＆反転ミラー 公式サイト</title>
+<meta name="description" content="フリコピは、YouTubeのダンス動画を鏡うつし（左右反転）でスロー再生し、覚えたい区間だけくり返せるiOSアプリ。URLを貼るだけで、あのサビの振りを何度でも。">
+<meta property="og:title" content="フリコピ - ダンス練習のスロー再生＆反転ミラー">
+<meta property="og:description" content="YouTubeのダンス動画を鏡うつし×スロー再生。区間リピートで、あのサビだけ何度でも。">
 <style>
-  :root { --bg: #131015; --panel: #1c161b; --text: #f2edf0; --sub: #9b8794; --accent: #ff5fa2; }
+  :root { --bg: #131015; --panel: #1c161b; --panel2: #281d24; --text: #f2edf0; --sub: #9b8794; --accent: #ff5fa2; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
     font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", -apple-system, sans-serif;
     background: var(--bg); color: var(--text); line-height: 1.9;
   }
-  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
-  h1 { font-size: 28px; margin-bottom: 4px; }
-  h1 .sub { display: block; font-size: 14px; color: var(--sub); font-weight: normal; margin-top: 6px; }
-  h2 { font-size: 18px; margin: 36px 0 10px; color: var(--accent); }
-  p, li { font-size: 15px; color: var(--text); }
-  ul { padding-left: 1.4em; }
-  .panel { background: var(--panel); border-radius: 12px; padding: 18px 20px; margin-top: 14px; }
+  main { max-width: 860px; margin: 0 auto; padding: 56px 20px 80px; }
+  .hero { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; margin-bottom: 20px; }
+  .hero-text { flex: 1 1 260px; min-width: 0; }
+  h1 { font-size: clamp(26px, 7vw, 34px); line-height: 1.4; overflow-wrap: anywhere; }
+  h1 .sub { display: block; font-size: 15px; color: var(--sub); font-weight: normal; margin-top: 8px; }
+  .accent { color: var(--accent); }
+  .badge {
+    display: inline-block; margin-top: 20px; padding: 13px 26px;
+    border: 2px solid var(--accent); border-radius: 12px;
+    color: var(--accent); font-weight: 700; font-size: 15px;
+  }
+  .badge small { display: block; font-weight: normal; font-size: 11px; color: var(--sub); }
+  h2 { font-size: 20px; margin: 48px 0 14px; color: var(--accent); }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+  .card { background: var(--panel); border-radius: 14px; padding: 18px 20px; }
+  .card b { display: block; font-size: 15px; margin-bottom: 4px; }
+  .card span { font-size: 13px; color: var(--sub); }
+  .shots { display: flex; gap: 14px; overflow-x: auto; padding-bottom: 8px; }
+  .shots img { width: 240px; border-radius: 16px; flex-shrink: 0; }
+  p, li { font-size: 15px; }
+  ol { padding-left: 1.5em; }
   a { color: var(--accent); }
-  footer { margin-top: 56px; font-size: 12px; color: var(--sub); }
+  .pass { background: var(--panel); border-radius: 14px; padding: 20px 22px; margin-top: 14px; }
+  footer { margin-top: 64px; font-size: 12px; color: var(--sub); }
 </style>
 </head>
 <body>
 <main>
-  <h1>フリコピ<span class="sub">ダンス練習のスロー再生＆反転ミラー（iOS）</span></h1>
-
-  <h2>できること</h2>
-  <div class="panel">
-    <ul>
-      <li>YouTubeのダンス動画を<b>鏡うつし（左右反転）</b>で再生</li>
-      <li>速さを 0.25／0.5／0.75／ふつう に切り替え</li>
-      <li>覚えたい区間だけ<b>くり返し（A–Bループ）</b></li>
-      <li>縦向き・横向きどちらでも<b>全画面で最大化</b></li>
-      <li>練習中に画面が消えない</li>
-      <li>フリコピパス（買い切り）: 区間の保存・練習の履歴・お気に入り</li>
-    </ul>
+  <div class="hero">
+    <svg width="150" height="205" viewBox="0 0 400 548" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="188" y="200" width="24" height="40" rx="10" fill="#ffdcc9"/>
+      <g transform="translate(40 32) scale(0.8)">
+        <path d="M128 150 Q120 230 150 252 L250 252 Q280 230 272 150 Z" fill="#6e4438"/>
+      </g>
+      <rect x="168" y="368" width="22" height="118" rx="11" fill="#ffdcc9"/>
+      <g transform="rotate(14 236 372)"><rect x="225" y="368" width="22" height="114" rx="11" fill="#ffdcc9"/></g>
+      <g transform="translate(0 22)">
+        <path d="M156 452 Q156 470 176 470 L200 470 Q206 470 206 460 L206 450 Q186 442 170 446 Q158 448 156 452 Z" fill="#ffffff"/>
+        <path d="M156 462 L206 462 L206 470 L176 470 Q158 470 156 462 Z" fill="#ff8fc0"/>
+        <g transform="rotate(14 250 430)">
+          <path d="M234 446 Q234 464 254 464 L278 464 Q284 464 284 454 L284 444 Q264 436 248 440 Q236 442 234 446 Z" fill="#ffffff"/>
+          <path d="M234 456 L284 456 L284 464 L254 464 Q236 464 234 456 Z" fill="#ff8fc0"/>
+        </g>
+      </g>
+      <path d="M146 322 L254 322 L272 382 L128 382 Z" fill="#ffd3e5"/>
+      <path d="M146 322 L164 322 L150 382 L128 382 Z" fill="#f5b3d0"/>
+      <path d="M182 322 L200 322 L192 382 L168 382 Z" fill="#f5b3d0"/>
+      <path d="M218 322 L236 322 L234 382 L210 382 Z" fill="#f5b3d0"/>
+      <path d="M254 322 L272 382 L252 382 L244 322 Z" fill="#f5b3d0"/>
+      <path d="M148 248 Q108 210 100 162 L122 150 Q136 196 166 228 Z" fill="#ff9dc4"/>
+      <circle cx="110" cy="150" r="15" fill="#ffdcc9"/>
+      <rect x="96" y="122" width="9" height="26" rx="4.5" fill="#ffdcc9" transform="rotate(-14 100 135)"/>
+      <rect x="112" y="120" width="9" height="28" rx="4.5" fill="#ffdcc9" transform="rotate(8 116 134)"/>
+      <path d="M142 236 Q200 218 258 236 L276 330 Q200 344 124 330 Z" fill="#ff9dc4"/>
+      <path d="M124 330 Q200 344 276 330 L272 306 Q200 320 128 306 Z" fill="#f27fae"/>
+      <path d="M158 236 Q200 258 242 236 Q236 252 200 256 Q164 252 158 236 Z" fill="#f27fae"/>
+      <path d="M252 248 Q286 268 284 302 L262 310 Q258 282 240 264 Z" fill="#ff9dc4"/>
+      <circle cx="272" cy="308" r="13" fill="#ffdcc9"/>
+      <rect x="188" y="252" width="6" height="22" rx="3" fill="#ffffff"/>
+      <rect x="206" y="252" width="6" height="22" rx="3" fill="#ffffff"/>
+      <g transform="translate(40 32) scale(0.8)">
+        <ellipse cx="200" cy="152" rx="74" ry="70" fill="#ffe3d2"/>
+        <path d="M126 150 Q122 84 200 80 Q278 84 274 150 Q262 118 236 112 Q244 128 238 142 Q220 108 186 108 Q196 124 190 140 Q168 112 144 122 Q150 134 146 148 Q136 142 126 150 Z" fill="#7a4a42"/>
+        <circle cx="138" cy="84" r="30" fill="#7a4a42"/>
+        <circle cx="262" cy="84" r="30" fill="#7a4a42"/>
+        <circle cx="130" cy="76" r="10" fill="#8a5a50"/>
+        <circle cx="254" cy="76" r="10" fill="#8a5a50"/>
+        <circle cx="152" cy="102" r="9" fill="#ff5fa2"/>
+        <circle cx="248" cy="102" r="9" fill="#ff5fa2"/>
+        <ellipse cx="172" cy="162" rx="11" ry="14" fill="#5a3a44"/>
+        <circle cx="176" cy="156" r="4" fill="#ffffff"/>
+        <ellipse cx="228" cy="162" rx="11" ry="14" fill="#5a3a44"/>
+        <circle cx="232" cy="156" r="4" fill="#ffffff"/>
+        <path d="M160 138 Q172 132 184 137" stroke="#7a4a42" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M216 137 Q228 132 240 138" stroke="#7a4a42" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <ellipse cx="156" cy="182" rx="10" ry="6" fill="#ffb9cd"/>
+        <ellipse cx="244" cy="182" rx="10" ry="6" fill="#ffb9cd"/>
+        <path d="M188 192 Q200 202 212 192" stroke="#d16a8a" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <g transform="translate(-16 14) rotate(24 292 92)">
+          <path d="M260 54 L270 14 L292 46 Z" fill="#fff9f5"/>
+          <path d="M324 54 L314 14 L292 46 Z" fill="#fff9f5"/>
+          <path d="M268 46 L272 26 L284 42 Z" fill="#ff8fc0"/>
+          <path d="M316 46 L312 26 L300 42 Z" fill="#ff8fc0"/>
+          <path d="M256 52 Q250 92 272 112 Q284 122 292 132 Q300 122 312 112 Q334 92 328 52 Q292 40 256 52 Z" fill="#fff9f5"/>
+          <path d="M268 72 Q279 62 289 70 Q279 76 268 72 Z" fill="#ff5fa2"/>
+          <path d="M316 72 Q305 62 295 70 Q305 76 316 72 Z" fill="#ff5fa2"/>
+          <path d="M262 88 Q272 94 280 92" stroke="#ff8fc0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          <path d="M322 88 Q312 94 304 92" stroke="#ff8fc0" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+          <path d="M284 116 Q292 128 300 116 Q292 110 284 116 Z" fill="#ff5fa2"/>
+        </g>
+      </g>
+      <text x="86" y="248" font-size="30" fill="#ff8fc0">♪</text>
+      <text x="300" y="200" font-size="24" fill="#f5a8cb">♪</text>
+      <path d="M322 150 L327 162 L339 167 L327 172 L322 184 L317 172 L305 167 L317 162 Z" fill="#ffd166"/>
+      <path d="M74 296 L78 305 L87 309 L78 313 L74 322 L70 313 L61 309 L70 305 Z" fill="#ffd166"/>
+    </svg>
+    <div class="hero-text">
+      <h1>「あのサビの振り」を、<br><span class="accent">巻き戻さずに。</span>
+        <span class="sub">フリコピ - ダンス練習のスロー再生＆反転ミラー（iOS）</span>
+      </h1>
+      <div class="badge">App Storeで近日公開<small>現在審査中です。公開までもう少しお待ちください</small></div>
+    </div>
   </div>
 
-  <h2>使い方</h2>
-  <p>YouTubeアプリで動画の「共有」→「フリコピ」を選ぶか、動画のURLをコピーしてアプリ上部の貼り付けボタンを押すだけです。</p>
+  <h2>できること</h2>
+  <div class="features">
+    <div class="card"><b>鏡うつし再生</b><span>向かい合う先生と同じ向きに。左右で迷わない</span></div>
+    <div class="card"><b>0.25倍スロー</b><span>速い振りも、目で追える速さまで落とせる</span></div>
+    <div class="card"><b>区間くり返し</b><span>覚えたいところだけA–Bリピート。サビだけ何度でも</span></div>
+    <div class="card"><b>画面いっぱいに最大化</b><span>縦でも横でも全画面。練習中は画面が消えない</span></div>
+    <div class="card"><b>テレビでも練習</b><span>iPhoneの画面ミラーリングで大画面に。アプリに3ステップの案内つき</span></div>
+    <div class="card"><b>フリコピパス（買い切り）</b><span>区間の保存・お気に入り・練習の履歴が「残る」</span></div>
+  </div>
+
+  <h2>画面イメージ</h2>
+  <div class="shots">
+    <img src="img/01-paste-mirror.jpg" alt="URLを貼るだけで鏡うつし再生" loading="lazy">
+    <img src="img/03-loop.jpg" alt="サビだけ何度でも区間リピート" loading="lazy">
+    <img src="img/05-fullscreen.jpg" alt="画面いっぱいに最大化して練習" loading="lazy">
+  </div>
+
+  <h2>使い方は2秒</h2>
+  <ol>
+    <li>YouTubeアプリで動画の「共有」→「フリコピ」を選ぶ（またはURLをコピーして貼り付けボタン）</li>
+    <li>鏡うつしで再生が始まる。あとは速さと区間を合わせて、いっしょに踊るだけ</li>
+  </ol>
+
+  <div class="pass">
+    <b class="accent">フリコピパス</b><br>
+    動画の再生・鏡うつし・速さ変更・くり返しは、<b>購入しなくてもすべて使えます</b>。
+    パスを買うと「残る」ようになります — くり返し区間の保存、サムネイル付きのお気に入り、練習した動画の履歴。
+  </div>
 
   <h2>お問い合わせ</h2>
   <p>不具合・ご要望は <a href="mailto:nosunosukawa@gmail.com">nosunosukawa@gmail.com</a> までお寄せください。</p>
@@ -48,7 +153,7 @@
   <h2>規約・ポリシー</h2>
   <p><a href="./privacy.html">プライバシーポリシー</a> ／ <a href="./terms.html">利用規約</a> ／ <a href="https://www.youtube.com/t/terms">YouTube利用規約</a></p>
 
-  <footer>© 2026 のす工房（Nosu Works）</footer>
+  <footer>スクリーンショットの動画: ANIMAL | Katseye | Coreografia Tutorial *mirrored* by JuanFe Castro（CC BY）<br>© 2026 のす工房（Nosu Works）</footer>
 </main>
 </body>
 </html>
